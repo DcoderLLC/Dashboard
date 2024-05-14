@@ -1,0 +1,142 @@
+﻿/* user image section */
+.user-section {
+  margin-top: 20px;
+  font-size: 22px;
+  background-color: #bfb496;
+}
+.user-section-inner {
+  height: 65px;
+  width: 65px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.user-section-inner img {
+  margin-left: 10px;
+  width: 55px;
+  height: 60px;
+}
+.user-info {
+  display: block;
+  color: #302d26 !important;
+  display: inline-block;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+.user-text-online {
+  font-size: 18px;
+  color: #302d26;
+}
+.user-circle-online {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+/* side-menu section */
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: rgba(74, 72, 126, 0);
+}
+.navbar-top-links .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: #75c5b8;
+}
+.navbar-top-links > li > a {
+  color: #7d7e5f;
+}
+.nav > li > a {
+  padding: 20px 15px;
+}
+#side-menu {
+  background-color: #7d7e5f;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#side-menu a {
+  color: black;
+  border-bottom: 1px solid #84b899 !important;
+  height: 55px;
+}
+.selected {
+  background-color: rgb(83, 163, 163);
+}
+/* back colors */
+.blue {
+  background-color: #fcf8e3;
+}
+.green {
+  background-color: #fcf8e3;
+}
+.red {
+  background-color: #fcf8e3;
+}
+.yellow {
+  background-color: #fcf8e3;
+}
+
+/* No border */
+.no-boder {
+  border: 0px solid #5bc0de !important;
+}
+/* tap nvbar Section */
+
+#navbar {
+  background-color: #302d26;
+}
+
+.navbar-brand {
+  padding-left: 20px;
+}
+.navbar-brand img {
+  height: 30px;
+}
+.top-label {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  margin-top: -24px;
+  margin-right: -24px;
+}
+
+/*large font*/
+.large-font {
+  font-size: 18px;
+}
+
+.body-Login-back {
+  background-color: #bfb496;
+}
+
+.margin-tips {
+  margin: 5px;
+}
+.navbar-default {
+  border-color: #302d26;
+}
+/*media queries*/
+
+@media (min-width: 768px) {
+  #page-wrapper {
+    position: inherit;
+    margin: 0 0 0 250px;
+    padding: 0 30px;
+    min-height: 1000px;
+  }
+}
+
+@media (max-width: 768px) {
+  #wrapper {
+    margin-top: 140px !important;
+  }
+}
